@@ -4,11 +4,7 @@
 ## Profiili
 - [GitHub](https://github.com/rauhalam) 
 
----
-
 ## Koulutus
-
----
 
 | Jyväskylän yliopisto |
 | --- |
@@ -20,11 +16,7 @@
 | Ylioppilastutkinto |
 | 8/2014 - 12/2017 |
 
----
-
 ## Työkokemus
-
----
 
 | Taksinkuljettaja |
 | --- |
@@ -46,11 +38,7 @@
 | Jokirannan koulu, Ylivieska |
 | 01/2018 - 03/2018 |
 
----
-
 ## Mielenkiinnon kohteet
-
----
 
 - Tietokoneiden parissa värkkäily
 - Luonnossa liikkuminen, vaellus
