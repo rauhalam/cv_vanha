@@ -1,1 +1,35 @@
 /* Tänne tyylit */
+body {
+    background-color: white;
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+}
+.header {
+    background-color: #6f5151;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+.leftcol {
+    float: left;
+    background-color: #e9e2e2;
+    width: 40%;
+    padding: 1em;
+}
+.rightcol {
+    float: left;
+    background-color: white;
+    padding: 1em;
+}
+img {
+    width: 20%;
+}
+table {
+    border: none;
+}
+td {
+    text-align: left;
+}
+ul li {
+    padding-bottom: 5px;
+}
