@@ -1,33 +1,53 @@
 /* Tänne tyylit */
 body {
     box-sizing: border-box;
-    background-color: white;
+    background-color:#e9e2e2;
+    color: #372828;
     font-family: 'Palatino', 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     line-height: 1.5;
 }
 .header {
-    background-color: #6f5151;
-    color: white;
+    background-color: #372828;
+    color:#e9e2e2;
     text-align: center;
     padding: 1em;
 }
+.middleleft {
+    padding: 3%;
+    background-color:#6f5151;
+    width: 33%;
+    float: left;
+    height: 25em;
+}
+.middleright {
+    padding: 3%;
+    background-color:#e9e2e2;
+    color:#372828;
+    width: 55%;
+    float: left;
+    height: 25em;
+    margin: 0 auto;
+}
 .leftcol {
     float: left;
-    background-color: #e9e2e2;
-    width: 35%;
-    padding: 2%;
+    background-color:#6f5151;
+    color:#e9e2e2;
+    width: 31%;
+    padding: 4%;
     height: 65em;
 }
 .rightcol {
     float: left;
-    background-color: white;
-    padding: 2%;
-    width: 57%;
+    background-color:#e9e2e2;
+    padding: 4%;
+    width: 53%;
 }
 img {
     width: 100%;
+    margin: auto;
+    display: block;
 }
 table {
     border: none;
@@ -46,8 +66,8 @@ td {
     padding-left: 15px;
 }
 footer {
-    background-color: #6f5151;
-    color: white;
+    background-color:#372828;
+    color:#e9e2e2;
     text-align: center;
     padding: 0.5em;
     height: 2em;
