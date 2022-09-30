@@ -1,4 +1,8 @@
 /* Tänne tyylit */
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     box-sizing: border-box;
     background-image: url('img/forest-g54e05bba7_1920.jpg');
@@ -10,7 +14,7 @@ body {
     font-size: 16px;
     margin: 0;
     padding: 0;
-    line-height: 1.5;
+    line-height: 1.7;
 }
 h1 {
     font-size: 32px;
@@ -22,10 +26,11 @@ h1 {
     
 }
 .header {
-    background-color: rgb(55, 40, 40, 0.9);
+    background-color: rgb(55, 40, 40, 0.6);
     color:#e9e2e2;
     text-align: center;
     padding: 1em;
+    padding-top: 53px;
 }
 /* .middleleft {
     padding: 3%;
@@ -86,13 +91,47 @@ td {
 .rightcoltr {
     padding-left: 15px;
 }
+nav {
+    margin: 0 auto;
+    text-align: center;
+    position:fixed;
+    width: 100%;
+    height: 55px;
+    max-width: 1400px;
+}
+.navbar {
+    background-color: rgb(55, 40, 40, 0.9);;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+}
+li {
+    float: left;
+}
+li a {
+    display:block;
+    color: #e9e2e2;
+    padding: 14px 16px;
+    border-left:#e9e2e2 solid 1px;
+    border-right: #e9e2e2 solid 1px;
+    border-radius: 12px;
+}
+li a:hover {
+    background-color: rgb(233, 226, 226, 0.4);
+}
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
 }
 .button {
-    background-color: #e9e2e2;
+    background-color: rgb(233, 226, 226, 0.9);
     border: #372828 solid 1px;
     color: #372828;
     padding: 15px;
