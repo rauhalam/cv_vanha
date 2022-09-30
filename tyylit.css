@@ -51,7 +51,8 @@ h1 {
     color:#e9e2e2;
     width: 33%;
     padding: 3%;
-    height:95em
+    height:95em;
+    min-height: 1550px;
 }
 .rightcol {
     float: left;
@@ -59,11 +60,15 @@ h1 {
     padding: 3%;
     width: 55%;
     height: 95em;
+    min-height: 1550px;
 }
 img {
     width: 100%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
+    border-radius: 10px;
+    padding: 5px;
 }
 table {
     border: none;
@@ -94,6 +99,7 @@ td {
     text-align: center;
     border-radius: 12px;
     transition-duration: 0.2s;
+    font-size: 16px;
 }
 .button1:hover {
     background-color: rgb(233, 226, 226, 0.5);
