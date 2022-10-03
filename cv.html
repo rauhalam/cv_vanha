@@ -14,12 +14,12 @@
             <ul>
                 <li><a class="active" href="">Etusivu</a></li>
                 <li><a href="#profiili">Profiili</a></li>
-                <li><a href="#yhteys">Yhteystiedot</a></li>
-                <li><a href="#taidot">Taidot</a></li>
-                <li><a href="#kielet">Kielet</a></li>
+                <li><a href="#koulutus">Koulutus ja työkokemus</a></li>
+                <li><a href="#yhteys">Somet</a></li>
+                <!--<li><a href="#kielet">Kielet</a></li>
                 <li><a href="#mielenkiinnot">Mielenkiinnon kohteet</a></li>
-                <li><a href="#koulutus">Koulutus</a></li>
-                <li><a href="#kokemus">Työkokemus</a></li>
+                <li><a href="#koulutus">Koulutus ja työkokemus</a></li>
+                <li><a href="#kokemus">Työkokemus</a></li> -->
             </ul>
         </nav>
 
@@ -27,8 +27,9 @@
             <!--<img src="img/cv_kuva.jpg" alt="Mirka Rauhala" style="float: left;width: 10em;"> -->
             <div style="margin: 2.1em">
                 <h1>Ansioluettelo</h1>
-                <h2>Mirka Rauhala</h2>
-                <button class="button button1" onclick="location.href='/assets/cv.pdf'; target='_blank'"><b>CV.pdf</b></button>
+                <h2 style="margin-bottom: 15px;">Mirka Rauhala</h2>
+                <!--<button class="button button1" onclick="location.href='/assets/cv.pdf'" formtarget="_blank"><b>CV.pdf</b></button>-->
+                <a type="button" href="/assets/cv.pdf" target="_blank" class="button button1">CV.pdf</a>
             </div>
         </header>
 
@@ -39,13 +40,13 @@
             <img src="img/book.jpg" alt="Opiskelu">
         </section> -->
         <section class="leftcol">
-            <div id="profiili" style="width: 92.5%; margin-left: auto; margin-right: auto; padding-bottom: 3%;">
+            <div id="profiili" style="width: 97%; margin-left: auto; margin-right: auto; padding-bottom: 3%;">
                 <img style="border:#e9e2e2 solid 1px;" src="img/cv_kuva.jpg" alt="Mirka Rauhala">
             </div>
-            <h2 id="yhteys">Profiili</h2>
+            <h2>Profiili</h2>
             <p>Omaan hyvät valmiudet tietotekniikan saralla ja aikomuksenani on jatkaa Jyväskylän yliopistossa aloittamiani tietotekniikan opintoja ammattikorkeakoulussa. Etsin mahdollisuutta päästä kehittämään osaamistani alan työtehtävissä.</p>
         
-            <h2 id="taidot">Yhteystiedot</h2>
+            <h2>Yhteystiedot</h2>
             <table>
                 <tr>
                     <td><a style="color: #e9e2e2;" href="tel:+358400305676">+358 40 030 5676</a></td>
@@ -57,7 +58,7 @@
                     <td>50150, Mikkeli</td>
                 </tr>
             </table>
-            <h2 id="kielet">Taidot</h2>
+            <h2>Taidot</h2>
             <table>
                 <tr>
                     <td>C#, Java, Python, LaTex, HTML, CSS</td>
@@ -72,7 +73,7 @@
                     <td>Matemaattiset taidot ja ongelmanratkaisu</td>
                 </tr>
             </table>
-            <h2 id="mielenkiinnot">Kielet</h2>
+            <h2>Kielet</h2>
             <table>
                 <tr>
                     <td>Suomi</td>
@@ -94,7 +95,7 @@
             <div id="koulutus" style="width: 100%; padding-bottom: 3%;">
                 <img style="border: rgb(111, 81, 81) solid 1px;" src="img/book.jpg" alt="Opiskelu">
             </div>
-            <h2 id="kokemus" >Koulutus</h2>
+            <h2>Koulutus</h2>
             <table>
                 <tr>
                     <td><b>Jyväskylän yliopisto</b></td>
@@ -170,7 +171,7 @@
                 </tr>
             </table>
         </section>
-        <footer>
+        <footer id="yhteys">
             <table style="margin-left:auto;margin-right:auto;">
                 <tr>
                     <td>©2022 Mirka Rauhala</td>
